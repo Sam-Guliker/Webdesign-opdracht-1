@@ -1,6 +1,7 @@
 # Opdracht 1
 It will contain some of the User Interface Designs Principles
-[the app](opdracht-1 link)
+
+[the app](https://sam-guliker.github.io/Webdesign-opdracht-1/)
 
 ![The App](images/opdracht-1.gif)
 
