@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 25em;
+  min-height: 100vh;
+  padding-right: 0;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa68d2+0,5e49a1+100 */
+  background: #aa68d2; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    hsl(277, 54%, 62%) 0%,
+    hsl(254, 38%, 46%) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    hsl(277, 54%, 62%) 0%,
+    hsl(254, 38%, 46%) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    hsl(277, 54%, 62%) 0%,
+    hsl(254, 38%, 46%) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa68d2', endColorstr='#5e49a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+header li {
+  background-color: black;
+  width: 25px;
+  height: 3px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  position: relative;
+  padding: 1.875em;
+  margin: 0;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+header p {
+  padding-top: 0.4em;
+  color: #e2e2e2;
+}
+header h1 {
+  color: #ffffff;
+}
+
+main {
+  margin: 1.875em;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+section li {
+  box-sizing: border-box;
+  padding: 1em;
+  padding-right: 1em;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 7.8em;
+  width: 7.8em;
+  background: black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+}
+#detail .back,
+#list .back {
+  color: #ffffff;
+  width: initial;
+  height: initial;
+  background: 0;
+  display: inline-block;
+  box-shadow: none;
+  padding-right: 0.7em;
+}
+
+/*
+
+ Detail page
+
+*/
+
+#detail img {
+  height: 18.75em;
+  width: 18.75em;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+}
+section nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+#detail section nav ul li:last-child {
+  font-weight: bolder;
+}
+#detail li {
+  padding-top: 0;
+}
+/*
+
+ list page
+
+*/
+
+#list header {
+  z-index: 0;
+  position: relative;
+}
+
+#list section ul {
+  overflow: initial;
+  flex-direction: column;
+}
+#list img {
+  width: 5em;
+  height: 5em;
+}
+
+#list section li {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#list main {
+  margin-right: 1.875em;
+}
+.play-btn {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  background: #2e2e2e;
+  border-radius: 50%;
+  right: 0.7em;
+  border: none;
+}
+#list a {
+  display: block;
+  margin-top: 1em;
+}
+#list section:first-of-type > p {
+  padding-top: 1.25em;
+  font-weight: 500;
+}
+.fab {
+  display: flex;
+  width: 6em;
+  height: 6em;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -30px;
+  right: 2.8em;
+  border: none;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+}
+#list header {
+  background: url("../images/sango-cover.jpg") no-repeat;
+  padding-bottom: 1em;
+  background-position: center center;
+}
+.overlay {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+.fab section {
+  display: flex;
+  margin: auto;
+}
+.fab section div {
+  background: #4e4e4e;
+  width: 9px;
+  height: 32px;
+  margin-left: 0.5em;
+  border-radius: 2px;
+}
+.fab section div:first-of-type {
+  margin-left: 0;
+}
+#list h1 {
+  font-size: 3em;
+}
+#detail h2 {
+  font-size: 2em;
+}
+.chev-right {
+  display: block;
+  color: #fff;
+  margin-top: -6px;
+  transform: scale(2);
+}
+#detail .fab {
+  bottom: initial;
+  right: initial;
+  margin-top: 0;
+  background: #fff;
+}
+
+#detail article {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+#detail article section {
+  margin: auto;
+}
+#detail article {
+  margin-top: 1.25em;
+}
+#detail article button {
+  margin-top: 2em;
+  vertical-align: center;
+  background: none;
+  border: none;
+}
+#detail button .detail-btn {
+  background: initial;
+  width: initial;
+  height: initial;
+  background: none;
+  box-shadow: none;
+}
+.backward {
+  transform: rotateY(180deg);
+}
+/*
+
+  Typografie
+
+*/
+
+hr {
+  height: 0.4em;
+  outline: none;
+  border: none;
+  background: black;
+  width: 20%;
+  margin-bottom: 1em;
+}
+h2 {
+  padding: 1em 0;
+  padding-bottom: 0;
+  font-weight: 500;
+  font-size: 1.125em;
+}
+section:first-of-type h2 {
+  padding-top: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+section li h3 {
+  font-weight: 500;
+  padding-top: 1.25em;
+  font-size: 1em;
+  color: #e2e2e2;
+}
+section li p {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#detail h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.7em;
+}
+
+input[type="range"] {
+  width: 90%;
+  margin-top: 3em;
+  margin-right: 1em;
+  box-sizing: border-box;
+}
+
+audio {
+  display: none;
+}
