@@ -2,7 +2,7 @@
 It will contain some of the User Interface Designs Principles
 [the app](opdracht-1 link)
 
-![The App](../images/opdracht-1.gif)
+![The App](images/opdracht-1.gif)
 
 ## Applied Interface Design Principles
 * 11 Strong visual hierarchies work best
@@ -27,19 +27,19 @@ On the first page the layout is perfect consistant and is simple to understand.
 ## Adjustments after feedback
 __Padding__ on the homepage:
 
-![padding-1](../images/padding-1.png) ![padding-2](../images/padding-2.png)
+![padding-1](images/padding-1.png) ![padding-2](images/padding-2.png)
 
 
 The padding is enlarged so that the principle of strong Visual hierarchies work best is boosted.
 
 Enlarges the __title__ so that the focal point is stronger presence
 
-![list-style-1](../images/list-titel-2.png) ![list-style-2](../images/list-titel-1.png) 
+![list-style-1](images/list-titel-2.png) ![list-style-2](images/list-titel-1.png) 
 
 __Font-Size__  is enlarged so that the principle of strong Visual hierarchies work best is boosted.
 
-![font-1](../images/font1em.png) ![font-2](../images/font2em.png)
+![font-1](images/font1em.png) ![font-2](images/font2em.png)
 
 __Font-weight__ is enlarged so that the principle of strong Visual hierarchies work best is boosted.
 
-![not-bold](../images/nietbold.png) ![bold](../images/bold.png)
+![not-bold](images/nietbold.png) ![bold](images/bold.png)
